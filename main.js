@@ -44,3 +44,6 @@ const filterMethod = (arr, callback) => {
 const isEven = (arr) => arr % 2 === 0;
 
 console.log(filterMethod(myArr, isEven));
+
+const isOdd = (arr) => arr % 2 === 1;
+console.log(filterMethod(myArr, isOdd));
